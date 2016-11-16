@@ -26,6 +26,7 @@ namespace Elision.SitemapXml
             if (!args.Entries.Any() && (args.Site == null || args.SitemapRootItem == null || string.IsNullOrWhiteSpace(args.IndexName)))
             {
                 context.Response.StatusCode = 404;
+                Sitecore.Diagnostics.Log.Warn("Something went wrong getting sitemap - returning 404.", this);
                 return;
             }
 

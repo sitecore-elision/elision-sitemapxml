@@ -14,7 +14,11 @@ namespace Elision.SitemapXml.Pipelines
                 searchIndex = ContentSearchManager.GetIndex((SitecoreIndexableItem) args.SitemapRootItem);
 
             if (searchIndex == null)
+            {
+                Sitecore.Diagnostics.Log.Error("Error getting sitemap - could not locate search index.", this);
                 return;
+            }
+                
 
             args.IndexName = searchIndex.Name;
 

@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Text;
 using System.Web;
+using Elision.Foundation.Kernel;
 using Elision.SitemapXml.Pipelines;
 using Sitecore.Pipelines;
 

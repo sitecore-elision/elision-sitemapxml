@@ -26,7 +26,7 @@ namespace Elision.Feature.Library.SitemapXml.Pipelines.GetSitemapXmlEntries
             {
                 var results = ctx.GetQueryable<SitemapSesarchResultItem>()
                     .Where(i => i.Paths.Contains(args.SitemapRootItem.ID) && i.Language == args.Language.Name)
-                    .Where(i => !i.HideFromSitemapXml);
+                    .Where(i => i.HasPresentation && !i.HideFromSitemapXml);
 
                 args.Entries.AddRange(results.Select(x => new SitemapEntry
                 {

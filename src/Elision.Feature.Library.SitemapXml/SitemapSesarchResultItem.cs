@@ -11,9 +11,8 @@ namespace Elision.Feature.Library.SitemapXml
 {
     public class SitemapSesarchResultItem : SearchResultItem
     {
-        [TypeConverter(typeof(IndexFieldEnumerableConverter))]
-        [IndexField("_basetemplates")]
-        public virtual IEnumerable<ID> BaseTemplates { get; set; }
+        [IndexField("_haspresentation")]
+        public bool HasPresentation { get; set; }
 
         [TypeConverter(typeof(IndexFieldBooleanValueConverter))]
         [IndexField("HideFromSitemapXml")]

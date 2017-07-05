@@ -40,7 +40,8 @@
     <PackagePublisher>Patrick Delancy</PackagePublisher>
     <PackageVersion>1.0.0.0</PackageVersion>
     <PackageReadme />
-    <SitecoreAssemblyPath>..\packages\Sitecore81Deploy.8.1.0\lib\net45</SitecoreAssemblyPath>
+    <SitecoreAssemblyPath>
+    </SitecoreAssemblyPath>
     <GeneratePackage>True</GeneratePackage>
     <SeperateFilesAndItems>False</SeperateFilesAndItems>
     <PackageExcludeCode>False</PackageExcludeCode>

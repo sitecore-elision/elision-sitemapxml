@@ -26,7 +26,6 @@ namespace Elision.SitemapXml
         [IndexField("SitemapXmlPriority")]
         public virtual double SitemapXmlPriority { get; set; }
 
-        //[TypeConverter(typeof(IndexFieldEnumValueConverter<PageUpdateFrequency>))]
         [IndexField("SitemapXmlUpdateFrequency")]
         public virtual string SitemapXmlUpdateFrequencyRaw { get; set; }
 

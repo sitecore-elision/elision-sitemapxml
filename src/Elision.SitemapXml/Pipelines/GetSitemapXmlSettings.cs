@@ -6,7 +6,7 @@
         {
             args.IndexName = null;
             args.Site = Sitecore.Sites.SiteContextFactory.GetSiteContext(Sitecore.Web.WebUtil.GetRequestUri().Host,
-                args.HttpContext.Request.FilePath.ToLowerInvariant(), args.HttpContext.Request.Url.Port)?.SiteInfo;            
+                args.HttpContext.Request.FilePath.ToLowerInvariant(), args.HttpContext.Request.Url.Port)?.SiteInfo;
 
             if (args.Site == null || (args.Site.Port > 0 && args.Site.Port != args.HttpContext.Request.Url.Port))
             {

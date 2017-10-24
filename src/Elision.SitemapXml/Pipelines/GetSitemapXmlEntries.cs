@@ -31,7 +31,7 @@ namespace Elision.SitemapXml.Pipelines
 
                 args.Entries.AddRange(results.Select(x => new SitemapEntry
                 {
-                    Location = args.Site.Scheme.Equals("https", StringComparison.InvariantCultureIgnoreCase) ? x.Url.Replace("http", "https") : x.Url,
+                    Location = !x.Url.StartsWith("https") && args.Site.Scheme.Equals("https", StringComparison.InvariantCultureIgnoreCase) ? x.Url.Replace("http", "https") : x.Url,
                     LastModified = x.Updated,
                     Priority = string.IsNullOrWhiteSpace(x.SitemapXmlPriorityRaw) ? 0.5 : x.SitemapXmlPriority,
                     ChangeFrequency = x.SitemapXmlUpdateFrequency

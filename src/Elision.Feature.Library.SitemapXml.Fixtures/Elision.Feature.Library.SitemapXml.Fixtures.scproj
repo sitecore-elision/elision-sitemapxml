@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>920a2c46-7da7-4471-bc7e-c2a1c44d5803</ProjectGuid>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <SourceWebPhysicalPath>..\Elision.Feature.Library.SitemapXml</SourceWebPhysicalPath>
+    <SourceWebProject>{38a53676-3b33-4ea9-8a70-ae21757f3b53}|Elision.Feature.Library.SitemapXml\Elision.Feature.Library.SitemapXml.csproj</SourceWebProject>
+    <SourceWebVirtualPath>/Elision.Feature.Library.SitemapXml.csproj</SourceWebVirtualPath>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <EnableUpdateable>true</EnableUpdateable>
+    <UseMerge>true</UseMerge>
+    <SingleAssemblyName>Elision.SitemapXml.Fixtures</SingleAssemblyName>
+    <UseWebConfigReplacement>false</UseWebConfigReplacement>
+    <DeleteAppCodeCompiledFiles>true</DeleteAppCodeCompiledFiles>
+    <LegacyFileReplacement>false</LegacyFileReplacement>
+    <AssemblyName>Elision.SitemapXml.Fixtures</AssemblyName>
+    <Name>Elision.Feature.Library.SitemapXml.Fixtures</Name>
+    <RootNamespace>Elision.SitemapXml.Fixtures</RootNamespace>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <ManageRoles>False</ManageRoles>
+    <SitecoreDatabase>master</SitecoreDatabase>
+    <AssemblyStatus>Exclude</AssemblyStatus>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.\bin\Debug\</OutputPath>
+    <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>.\bin\Release\</OutputPath>
+    <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+    <PackageName>Elision.Feature.Library.SitemapXml.Fixtures</PackageName>
+    <PackageAuthor>Jeffrey Rondeau</PackageAuthor>
+    <PackagePublisher>Jeffrey Rondeau</PackagePublisher>
+    <PackageVersion>0.0.1</PackageVersion>
+    <PackageReadme />
+    <SitecoreAssemblyPath>
+    </SitecoreAssemblyPath>
+    <GeneratePackage>True</GeneratePackage>
+    <SeperateFilesAndItems>False</SeperateFilesAndItems>
+    <PackageExcludeCode>False</PackageExcludeCode>
+    <AddDateTimeToPackageName>False</AddDateTimeToPackageName>
+    <NuGetGenerateNuGetPackage>True</NuGetGenerateNuGetPackage>
+    <NuGetExePath>..\.nuget</NuGetExePath>
+    <NuGetSummary />
+    <NuGetDescription>TDS Feature Layer Item Fixtures for use with Elision Sitemap XML.  Compatible with Sitecore 8.2 Update 2.</NuGetDescription>
+    <NuGetTitle>Elision.Feature.Sitemap XML TDS Fixtures</NuGetTitle>
+    <NuGetVersion>0.0.1</NuGetVersion>
+    <NuGetPackageId>Elision.Feature.SitemapXml.Fixtures</NuGetPackageId>
+    <NuGetAuthors>jrondeau</NuGetAuthors>
+    <NuGetOwners>jrondeau</NuGetOwners>
+    <NuGetCopyright />
+    <NuGetLicenseUrl />
+    <NuGetIconUrl />
+    <NuGetProjectUrl>https://github.com/sitecore-elision/elision-sitemapxml</NuGetProjectUrl>
+    <NuGetTags>sitecore elision feature sitemap xml tds fixtures</NuGetTags>
+    <NuGetReleaseNotes />
+    <NuGetLanguage />
+    <NuGetRequireLicenseAcceptance>False</NuGetRequireLicenseAcceptance>
+    <NuGetDependencies />
+    <EnableValidations>False</EnableValidations>
+    <ValidationSettingsFilePath>.\Elision.SitemapXml.Fixtures_Release.xml</ValidationSettingsFilePath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AssemblyAttributes Include="AssemblyFileVersion">
+      <Value>$(AssemblyFileVersion)</Value>
+    </AssemblyAttributes>
+    <AssemblyAttributes Include="AssemblyVersion">
+      <Value>$(AssemblyVersion)</Value>
+    </AssemblyAttributes>
+  </ItemGroup>
+  <ItemGroup>
+    <SitecoreItem Include="sitecore\templates.item">
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\ElisionFeatureLibrarySitemapXml.item">
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\ElisionFeatureLibrarySitemapXml\Base.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\ElisionFeatureLibrarySitemapXml\Base\_SitemapXmlPageOptions.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\ElisionFeatureLibrarySitemapXml\Base\_SitemapXmlPageOptions\Sitemap Xml.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\ElisionFeatureLibrarySitemapXml\Base\_SitemapXmlPageOptions\Sitemap Xml\HideFromSitemapXml.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\ElisionFeatureLibrarySitemapXml\Base\_SitemapXmlPageOptions\Sitemap Xml\SitemapXmlChangeFrequency.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\ElisionFeatureLibrarySitemapXml\Base\_SitemapXmlPageOptions\Sitemap Xml\SitemapXmlPriority.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Elision.Feature.Library.SitemapXml\Elision.Feature.Library.SitemapXml.csproj">
+      <Project>{38a53676-3b33-4ea9-8a70-ae21757f3b53}</Project>
+      <Name>Elision.Feature.Library.SitemapXml</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets" Condition="Exists('$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets')" />
+  <Import Project="..\packages\HedgehogDevelopment.TDS.5.5.0.20\build\HedgehogDevelopment.TDS.targets" Condition="Exists('..\packages\HedgehogDevelopment.TDS.5.5.0.20\build\HedgehogDevelopment.TDS.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\HedgehogDevelopment.TDS.5.5.0.20\build\HedgehogDevelopment.TDS.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\HedgehogDevelopment.TDS.5.5.0.20\build\HedgehogDevelopment.TDS.targets'))" />
+  </Target>
+</Project>

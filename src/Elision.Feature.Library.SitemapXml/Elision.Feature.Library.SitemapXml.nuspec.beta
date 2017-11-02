@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Elision.Feature.SitemapXml-redist</id>
+    <version>$version$</version>
+    <title>Elision Sitemap XML Feature for Sitecore Redist</title>
+    <authors>jrondeau,PatrickDelancy</authors>
+    <owners>jrondeau</owners>
+    <projectUrl>https://github.com/sitecore-elision/elision-sitemapxml</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This is the Elision sitemap XML feature package to reference if you are building a module or other code that just needs to reference Elision sitemap XML feature. If you need to install Elision's sitemap XML feature, use the Elision.Feature.SitemapXml package instead.</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>sitecore elision feature sitemap xml redist</tags>
+  </metadata>
+</package>

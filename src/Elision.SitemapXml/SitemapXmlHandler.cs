@@ -44,7 +44,7 @@ namespace Elision.SitemapXml
                 if (node.ChangeFrequency != PageUpdateFrequency.Unknown)
                     sb.AppendFormat("<changefreq>{0}</changefreq>", node.ChangeFrequency.ToString().ToLowerInvariant());
 
-                if (node.Priority >= 0 && node.Priority <= 1.0 && Math.Abs(node.Priority - 0.5) > 0.09)
+                if (node.Priority >= 0 && node.Priority <= 1.0)
                     sb.AppendFormat("<priority>{0:0.0}</priority>", node.Priority);
 
                 sb.Append("</url>" + Environment.NewLine);

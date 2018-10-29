@@ -2,7 +2,7 @@
 version: 1
 id: {DD0D9AE1-2E74-418A-BA5D-C4C88807657D}
 database: master
-path: /sitecore/templates/ElisionFeatureLibrarySitemapXml/Base/_SitemapXmlPageOptions/Sitemap Xml
+path: /sitecore/templates/Elision/Feature/ElisionFeatureLibrarySitemapXml/Base/_SitemapXmlPageOptions/Sitemap Xml
 parent: {CD0078F8-5686-49C7-9A85-CC22E76A18B6}
 name: Sitemap Xml
 master: {00000000-0000-0000-0000-000000000000}

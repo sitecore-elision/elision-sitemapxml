@@ -40,12 +40,12 @@ namespace Elision.Feature.Library.SitemapXml
             {
                 sb.Append("<url>")
                     .AppendFormat("<loc>{0}</loc>", XmlEscapeString(node.Location))
-                    .AppendFormat("<lastmod>{0}</lastmod>", node.LastModified.ToString("yyyy-MM-dd"));
+                    .AppendFormat("<lastmod>{0:yyyy-MM-dd}</lastmod>", node.LastModified);
 
                 if (node.ChangeFrequency != PageUpdateFrequency.Unknown)
                     sb.AppendFormat("<changefreq>{0}</changefreq>", node.ChangeFrequency.ToString().ToLowerInvariant());
 
-                if (node.Priority >= 0 && node.Priority <= 1.0 && Math.Abs(node.Priority - 0.5) > 0.09)
+                if (node.Priority >= 0 && node.Priority <= 1.0)
                     sb.AppendFormat("<priority>{0:0.0}</priority>", node.Priority);
 
                 sb.Append("</url>" + Environment.NewLine);

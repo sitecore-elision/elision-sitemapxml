@@ -310,7 +310,7 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="App_Config\Include\Elision.Feature.Library.SitemapXml\Elision.Feature.Library.SitemapXml.config">
+    <Content Include="App_Config\Include\Feature\Elision.Feature.Library.SitemapXml\Elision.Feature.Library.SitemapXml.config">
       <SubType>Designer</SubType>
     </Content>
   </ItemGroup>

@@ -388,7 +388,6 @@
     <Content Include="web.config.uninstall.xdt" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_Start\RazorGeneratorMvcStart.cs" />
     <Compile Include="SitemapXmlHandler.cs" />
     <Compile Include="PageUpdateFrequency.cs" />
     <Compile Include="Pipelines\GetSitemapXmlEntries\GetSitemapXmlEntries.cs" />

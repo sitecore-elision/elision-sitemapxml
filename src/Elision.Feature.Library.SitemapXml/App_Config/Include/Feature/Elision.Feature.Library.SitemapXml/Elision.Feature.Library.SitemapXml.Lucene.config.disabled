@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration xmlns:patch="http://www.sitecore.net/xmlconfig/" xmlns:search="http://www.sitecore.net/xmlconfig/search/" xmlns:role="http://www.sitecore.net/xmlconfig/role/">
+  <sitecore role:require="Standalone or ContentManagement or ContentDelivery" search:require="lucene">
+    <contentSearch>
+
+      <indexConfigurations>
+        <defaultLuceneIndexConfiguration type="Sitecore.ContentSearch.LuceneProvider.LuceneIndexConfiguration, Sitecore.ContentSearch.LuceneProvider">
+          <documentOptions type="Sitecore.ContentSearch.LuceneProvider.LuceneDocumentBuilderOptions, Sitecore.ContentSearch.LuceneProvider">
+            <fieldMap type="Sitecore.ContentSearch.LuceneProvider.LuceneFieldMap, Sitecore.ContentSearch.LuceneProvider">
+
+              <fieldNames hint="raw:AddFieldByFieldName">
+                <field fieldName="HideFromSitemapXml"         storageType="YES" indexType="TOKENIZED" vectorType="NO" boost="1f" type="System.Boolean" settingType="Sitecore.ContentSearch.LuceneProvider.LuceneSearchFieldConfiguration, Sitecore.ContentSearch.LuceneProvider"/>
+                <field fieldName="SitemapXmlPriority"         storageType="YES" indexType="TOKENIZED" vectorType="NO" boost="1f" type="System.Double"  settingType="Sitecore.ContentSearch.LuceneProvider.LuceneSearchFieldConfiguration, Sitecore.ContentSearch.LuceneProvider"/>
+                <field fieldName="SitemapXmlChangeFrequency"  storageType="YES" indexType="TOKENIZED" vectorType="NO" boost="1f" type="System.String"  settingType="Sitecore.ContentSearch.LuceneProvider.LuceneSearchFieldConfiguration, Sitecore.ContentSearch.LuceneProvider"/>
+              </fieldNames>
+
+            </fieldMap>            
+          </documentOptions>
+        </defaultLuceneIndexConfiguration>
+      </indexConfigurations>
+    </contentSearch>
+  </sitecore>
+</configuration>

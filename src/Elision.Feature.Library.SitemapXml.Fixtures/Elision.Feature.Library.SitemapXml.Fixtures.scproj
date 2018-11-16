@@ -57,7 +57,7 @@
     <NuGetOwners>jrondeau</NuGetOwners>
     <NuGetCopyright />
     <NuGetLicenseUrl />
-    <NuGetIconUrl />
+    <NuGetIconUrl>https://image.ibb.co/ihBV7Q/Elision_Logo.png</NuGetIconUrl>
     <NuGetProjectUrl>https://github.com/sitecore-elision/elision-sitemapxml</NuGetProjectUrl>
     <NuGetTags>sitecore elision feature sitemap xml tds fixtures</NuGetTags>
     <NuGetReleaseNotes />

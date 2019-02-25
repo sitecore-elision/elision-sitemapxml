@@ -2,7 +2,7 @@
 version: 1
 id: {712747F5-00E2-4676-9C40-AD5A3BE3B3EA}
 database: master
-path: /sitecore/templates/ElisionFeatureLibrarySitemapXml/Base
+path: /sitecore/templates/Elision/Feature/ElisionFeatureLibrarySitemapXml/Base
 parent: {3E1AF8CC-EF1F-4983-9931-FE24F09ED37B}
 name: Base
 master: {00000000-0000-0000-0000-000000000000}

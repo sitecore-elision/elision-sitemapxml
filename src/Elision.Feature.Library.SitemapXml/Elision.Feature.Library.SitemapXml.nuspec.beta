@@ -7,6 +7,7 @@
     <authors>jrondeau,PatrickDelancy</authors>
     <owners>jrondeau</owners>
     <projectUrl>https://github.com/sitecore-elision/elision-sitemapxml</projectUrl>
+    <iconUrl>https://image.ibb.co/ihBV7Q/Elision_Logo.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>This is the Elision sitemap XML feature package to reference if you are building a module or other code that just needs to reference Elision sitemap XML feature. If you need to install Elision's sitemap XML feature, use the Elision.Feature.SitemapXml package instead.</description>
     <releaseNotes></releaseNotes>

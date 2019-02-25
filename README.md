@@ -7,4 +7,4 @@
 - release: [![Build status](https://ci.appveyor.com/api/projects/status/q2adbfgn2c21a4ad/branch/release?svg=true)](https://ci.appveyor.com/project/SitecoreElision/elision-sitemapxml-fa53j/branch/release)
 
 
-- master: N/A
+- master: [![Build status](https://ci.appveyor.com/api/projects/status/ogji86kxoexid6ah?svg=true)](https://ci.appveyor.com/project/SitecoreElision/elision-sitemapxml-41v8q)

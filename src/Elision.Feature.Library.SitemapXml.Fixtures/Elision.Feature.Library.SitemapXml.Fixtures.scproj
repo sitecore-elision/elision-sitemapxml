@@ -49,7 +49,7 @@
     <NuGetGenerateNuGetPackage>True</NuGetGenerateNuGetPackage>
     <NuGetExePath>..\.nuget</NuGetExePath>
     <NuGetSummary />
-    <NuGetDescription>TDS Feature Layer Item Fixtures for use with Elision Sitemap XML.  Compatible with Sitecore 8.2 Update 2.</NuGetDescription>
+    <NuGetDescription>TDS Feature Layer Item Fixtures for use with Elision Sitemap XML.  Compatible with Sitecore 9.</NuGetDescription>
     <NuGetTitle>Elision.Feature.Sitemap XML TDS Fixtures</NuGetTitle>
     <NuGetVersion>0.0.1</NuGetVersion>
     <NuGetPackageId>Elision.Feature.SitemapXml.Fixtures</NuGetPackageId>
@@ -57,7 +57,7 @@
     <NuGetOwners>jrondeau</NuGetOwners>
     <NuGetCopyright />
     <NuGetLicenseUrl />
-    <NuGetIconUrl />
+    <NuGetIconUrl>https://image.ibb.co/ihBV7Q/Elision_Logo.png</NuGetIconUrl>
     <NuGetProjectUrl>https://github.com/sitecore-elision/elision-sitemapxml</NuGetProjectUrl>
     <NuGetTags>sitecore elision feature sitemap xml tds fixtures</NuGetTags>
     <NuGetReleaseNotes />
@@ -80,37 +80,42 @@
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureLibrarySitemapXml.item">
+    <SitecoreItem Include="sitecore\templates\Elision.item">
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Elision\Feature.item">
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureLibrarySitemapXml.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureLibrarySitemapXml\Base.item">
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureLibrarySitemapXml\Base.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureLibrarySitemapXml\Base\_SitemapXmlPageOptions.item">
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureLibrarySitemapXml\Base\_SitemapXmlPageOptions.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureLibrarySitemapXml\Base\_SitemapXmlPageOptions\Sitemap Xml.item">
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureLibrarySitemapXml\Base\_SitemapXmlPageOptions\Sitemap Xml.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureLibrarySitemapXml\Base\_SitemapXmlPageOptions\Sitemap Xml\HideFromSitemapXml.item">
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureLibrarySitemapXml\Base\_SitemapXmlPageOptions\Sitemap Xml\HideFromSitemapXml.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureLibrarySitemapXml\Base\_SitemapXmlPageOptions\Sitemap Xml\SitemapXmlChangeFrequency.item">
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureLibrarySitemapXml\Base\_SitemapXmlPageOptions\Sitemap Xml\SitemapXmlChangeFrequency.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureLibrarySitemapXml\Base\_SitemapXmlPageOptions\Sitemap Xml\SitemapXmlPriority.item">
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureLibrarySitemapXml\Base\_SitemapXmlPageOptions\Sitemap Xml\SitemapXmlPriority.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Elision.Feature.Library.SitemapXml\Elision.Feature.Library.SitemapXml.csproj">
@@ -118,12 +123,15 @@
       <Name>Elision.Feature.Library.SitemapXml</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets" Condition="Exists('$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets')" />
-  <Import Project="..\packages\HedgehogDevelopment.TDS.5.5.0.20\build\HedgehogDevelopment.TDS.targets" Condition="Exists('..\packages\HedgehogDevelopment.TDS.5.5.0.20\build\HedgehogDevelopment.TDS.targets')" />
+  <Import Project="..\packages\HedgehogDevelopment.TDS.5.7.0.19\build\HedgehogDevelopment.TDS.targets" Condition="Exists('..\packages\HedgehogDevelopment.TDS.5.7.0.19\build\HedgehogDevelopment.TDS.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\packages\HedgehogDevelopment.TDS.5.5.0.20\build\HedgehogDevelopment.TDS.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\HedgehogDevelopment.TDS.5.5.0.20\build\HedgehogDevelopment.TDS.targets'))" />
+    <Error Condition="!Exists('..\packages\HedgehogDevelopment.TDS.5.7.0.19\build\HedgehogDevelopment.TDS.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\HedgehogDevelopment.TDS.5.7.0.19\build\HedgehogDevelopment.TDS.targets'))" />
   </Target>
 </Project>

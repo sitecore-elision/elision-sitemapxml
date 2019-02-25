@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {7E285855-9509-4466-852F-3ECAF409FC02}
+id: {D731AA2F-1C22-4980-AAF8-382228C450EC}
 database: master
-path: /sitecore/templates/ElisionFeatureLibrarySitemapXml/Base/_SitemapXmlPageOptions/Sitemap Xml/SitemapXmlChangeFrequency
+path: /sitecore/templates/Elision/Feature/ElisionFeatureLibrarySitemapXml/Base/_SitemapXmlPageOptions/Sitemap Xml/SitemapXmlPriority
 parent: {DD0D9AE1-2E74-418A-BA5D-C4C88807657D}
-name: SitemapXmlChangeFrequency
+name: SitemapXmlPriority
 master: {00000000-0000-0000-0000-000000000000}
 template: {455A3E98-A627-4B40-8035-E683A0331AC7}
 templatekey: Template field
@@ -23,11 +23,11 @@ name: __Sortorder
 key: __sortorder
 content-length: 3
 
-300
+200
 ----version----
 language: en
 version: 1
-revision: c0b39b0c-c8de-4c68-ae0f-57214fe463bd
+revision: 3e3a6e80-0a7f-4130-8d3b-25643c6e5795
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -42,7 +42,7 @@ name: __Revision
 key: __revision
 content-length: 36
 
-c0b39b0c-c8de-4c68-ae0f-57214fe463bd
+3e3a6e80-0a7f-4130-8d3b-25643c6e5795
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated

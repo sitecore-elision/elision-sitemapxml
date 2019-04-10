@@ -80,39 +80,39 @@
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision.item">
+    <SitecoreItem Include="sitecore\templates\Feature.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Feature.item">
+    <SitecoreItem Include="sitecore\templates\Feature\Elision.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureLibrarySitemapXml.item">
+    <SitecoreItem Include="sitecore\templates\Feature\Elision\ElisionFeatureLibrarySitemapXml.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureLibrarySitemapXml\Base.item">
+    <SitecoreItem Include="sitecore\templates\Feature\Elision\ElisionFeatureLibrarySitemapXml\Base.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureLibrarySitemapXml\Base\_SitemapXmlPageOptions.item">
+    <SitecoreItem Include="sitecore\templates\Feature\Elision\ElisionFeatureLibrarySitemapXml\Base\_SitemapXmlPageOptions.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureLibrarySitemapXml\Base\_SitemapXmlPageOptions\Sitemap Xml.item">
+    <SitecoreItem Include="sitecore\templates\Feature\Elision\ElisionFeatureLibrarySitemapXml\Base\_SitemapXmlPageOptions\Sitemap Xml.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureLibrarySitemapXml\Base\_SitemapXmlPageOptions\Sitemap Xml\HideFromSitemapXml.item">
+    <SitecoreItem Include="sitecore\templates\Feature\Elision\ElisionFeatureLibrarySitemapXml\Base\_SitemapXmlPageOptions\Sitemap Xml\HideFromSitemapXml.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureLibrarySitemapXml\Base\_SitemapXmlPageOptions\Sitemap Xml\SitemapXmlChangeFrequency.item">
+    <SitecoreItem Include="sitecore\templates\Feature\Elision\ElisionFeatureLibrarySitemapXml\Base\_SitemapXmlPageOptions\Sitemap Xml\SitemapXmlChangeFrequency.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureLibrarySitemapXml\Base\_SitemapXmlPageOptions\Sitemap Xml\SitemapXmlPriority.item">
+    <SitecoreItem Include="sitecore\templates\Feature\Elision\ElisionFeatureLibrarySitemapXml\Base\_SitemapXmlPageOptions\Sitemap Xml\SitemapXmlPriority.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>

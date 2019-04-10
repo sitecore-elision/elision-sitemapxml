@@ -1,33 +1,33 @@
 ----item----
 version: 1
-id: {7E285855-9509-4466-852F-3ECAF409FC02}
+id: {BC5C671E-C18E-42F2-82B2-022E58964D51}
 database: master
-path: /sitecore/templates/Elision/Feature/ElisionFeatureLibrarySitemapXml/Base/_SitemapXmlPageOptions/Sitemap Xml/SitemapXmlChangeFrequency
+path: /sitecore/templates/Feature/Elision/ElisionFeatureLibrarySitemapXml/Base/_SitemapXmlPageOptions/Sitemap Xml/HideFromSitemapXml
 parent: {DD0D9AE1-2E74-418A-BA5D-C4C88807657D}
-name: SitemapXmlChangeFrequency
+name: HideFromSitemapXml
 master: {00000000-0000-0000-0000-000000000000}
 template: {455A3E98-A627-4B40-8035-E683A0331AC7}
 templatekey: Template field
-created: 20160528T080912Z
+created: 20160528T080236Z
 
 ----field----
 field: {AB162CC0-DC80-4ABF-8871-998EE5D7BA32}
 name: Type
 key: type
-content-length: 16
+content-length: 8
 
-Single-Line Text
+Checkbox
 ----field----
 field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
 name: __Sortorder
 key: __sortorder
 content-length: 3
 
-300
+100
 ----version----
 language: en
 version: 1
-revision: c0b39b0c-c8de-4c68-ae0f-57214fe463bd
+revision: 429ec0f6-99ec-43ff-903f-6265cdfb08bc
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -35,14 +35,14 @@ name: __Created
 key: __created
 content-length: 16
 
-20160528T030912Z
+20160528T030236Z
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-c0b39b0c-c8de-4c68-ae0f-57214fe463bd
+429ec0f6-99ec-43ff-903f-6265cdfb08bc
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated

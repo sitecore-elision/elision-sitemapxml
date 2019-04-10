@@ -2,7 +2,7 @@
 version: 1
 id: {D731AA2F-1C22-4980-AAF8-382228C450EC}
 database: master
-path: /sitecore/templates/Elision/Feature/ElisionFeatureLibrarySitemapXml/Base/_SitemapXmlPageOptions/Sitemap Xml/SitemapXmlPriority
+path: /sitecore/templates/Feature/Elision/ElisionFeatureLibrarySitemapXml/Base/_SitemapXmlPageOptions/Sitemap Xml/SitemapXmlPriority
 parent: {DD0D9AE1-2E74-418A-BA5D-C4C88807657D}
 name: SitemapXmlPriority
 master: {00000000-0000-0000-0000-000000000000}
